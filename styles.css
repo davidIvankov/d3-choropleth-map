@@ -1,0 +1,32 @@
+html, body{
+    min-height: 100%;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  svg {
+    background-color: whitesmoke;
+  }
+  
+  #canves{
+    min-width: 1000px;
+    min-height: 600px;
+    
+  }
+  
+  #tooltip{
+    position: absolute;
+      z-index: 1;
+    background-color: white;
+      white-space: pre-wrap;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid
+  }
+  
