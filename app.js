@@ -144,7 +144,12 @@ d3.json(countyUrl).then(
         legendScale();
         generateAxes();
         legendBars();
+
+
+
       }
     });
   }
+ 
 });
+window.addEventListener('resize', drawMap);
