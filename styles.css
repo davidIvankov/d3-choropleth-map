@@ -3,6 +3,7 @@ html, body{
   }
   
   body {
+   
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -11,12 +12,13 @@ html, body{
   }
   
   svg {
+    
     background-color: whitesmoke;
   }
   
   #canves{
-    width: 90vw;
-    height: 45vw;
+    width: 1000px;
+    height: 600px;
     
   }
   
@@ -29,4 +31,13 @@ html, body{
     border-radius: 10px;
     border: 1px solid
   }
-
+ 
+  @media screen and (max-width: 260px){
+    #canves{
+      margin-left: 250vw;
+    }
+    body{
+      width: 180vw;
+        height: 150vh;
+    }
+  }
