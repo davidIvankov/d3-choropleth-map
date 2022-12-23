@@ -32,7 +32,7 @@ html, body{
     border: 1px solid
   }
  
-  @media screen and (max-width: 260px){
+  @media screen and (max-width: 300px){
     #canves{
       margin-left: 250vw;
     }
