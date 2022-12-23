@@ -35,7 +35,7 @@ html, body{
  
   @media screen and (max-width: 300px){
     #canves{
-      margin-left: 250vw;
+      margin-left: 400vw;
     }
     body{
       width: 400vw;
