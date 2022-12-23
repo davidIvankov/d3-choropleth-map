@@ -30,11 +30,9 @@
   }
  
   @media screen and (max-width: 400px){
-    #canves{
-      margin-left: 400vw;
-    }
+    
     body{
-      width: 400vw;
+      width: 200vw;
         height: 150vh;
     }
   }
