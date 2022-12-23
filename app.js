@@ -152,4 +152,3 @@ d3.json(countyUrl).then(
   }
  
 });
-window.addEventListener('resize', drawMap);
